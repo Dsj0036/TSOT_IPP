@@ -72,7 +72,9 @@
     <ClInclude Include="Include\cell_interop.h" />
     <ClInclude Include="Include\cell_sys.h" />
     <ClInclude Include="Include\definitions.h" />
+    <ClInclude Include="Include\message_dialog.h" />
     <ClInclude Include="Include\trace.h" />
+    <ClInclude Include="Include\vsh.h" />
   </ItemGroup>
   <Import Condition="'$(ConfigurationType)' == 'Makefile' and Exists('$(VCTargetsPath)\Platforms\$(Platform)\SCE.Makefile.$(Platform).targets')" Project="$(VCTargetsPath)\Platforms\$(Platform)\SCE.Makefile.$(Platform).targets" />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

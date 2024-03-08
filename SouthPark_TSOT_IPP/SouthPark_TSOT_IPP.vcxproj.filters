@@ -11,6 +11,10 @@
     <ClInclude Include="Include\trace.h">
       <Filter>src</Filter>
     </ClInclude>
+    <ClInclude Include="Include\vsh.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\message_dialog.h" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="src">

@@ -162,6 +162,11 @@ bool str_contain(const char* str, const char* word) {
 	// The word was not found
 	return false;
 }
+void clear_str(char* str) {
+	strcpy(str, "\0");
+	
+}
+
 int is_char_letter(char c)
 {
 	if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'))
