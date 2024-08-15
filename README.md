@@ -1,1 +1,1 @@
-Begin of a Stick Of Truth related project
+Makes the debugging output visible in The Stick Of Truth. (NPEB01125)
